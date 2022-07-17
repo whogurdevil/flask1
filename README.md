@@ -15,16 +15,22 @@
 -Render html template from the ***template*** directory
 
 ## WORKING WITH SQLITE:confused:
--Add sqlite in app.py for database maagement
--***Unable to make todo.db file using commands shown below***
-```(env) PS C:\Users\Gurdev Singh\Desktop\flask> python
+-Add sqlite in app.py for database maagement  
+-**Unable to make todo.db file using commands shown below**
+
+   
+```
+(env) PS C:\Users\Gurdev Singh\Desktop\flask> python
     Python 3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)] on win32
     Type "help", "copyright", "credits" or "license" for more information.
     >>> from app import db
     C:\Users\Gurdev Singh\Desktop\flask\env\lib\site-packages\flask_sqlalchemy\__init__.py:851: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
         warnings.warn(
     >>> db.create_all()    
-    >>> 
+    >>>
+```
+-***RESOLVED:partying_face:*** the issue of .db file creation following:   
+(https://www.pythonfixing.com/2022/02/fixed-neither-sqlalchemydatabaseuri-nor.html)
 
 
 
