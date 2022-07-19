@@ -3,9 +3,10 @@ from email.policy import default
 import imp
 from itertools import product
 from pickle import TRUE
+from turtle import title
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import false, true
+from sqlalchemy import desc, false, true
 from datetime import datetime   
 app=Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///todo.db"
@@ -23,10 +24,20 @@ class Todo(db.Model):
 
 @app.route('/')
 def hello_world():
+    todo = Todo(title="first todo", desc="start doing maths")
+    db.session.add(todo)
+    db.session.commit()
+    allTodo = Todo.query.all()
+    print(allTodo)
     return render_template('index.html')
     
 
-@app.route('/products')
+@app.route('/show')
 def products():
+    allTodo = Todo.query.all()
+    print(allTodo)
     return 'this is a product page'
+
+    if __name__ == "__main__":
+     app.run(debug=True, port=8000)
 
