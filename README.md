@@ -1,5 +1,6 @@
 # flask1
-
+### BASIC TERMS
+- **Framework:** A framework is a structure that you can build software on. It serves as a foundation, so you're not starting entirely from scratch. Frameworks are typically associated with a specific programming language and are suited to different types of tasks.
 
 ### -INSTALLATION:metal:
 1. Install python
