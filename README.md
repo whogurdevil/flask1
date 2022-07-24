@@ -32,6 +32,10 @@
 ```
 -***RESOLVED:partying_face:*** the issue of .db file creation following:   
 (https://www.pythonfixing.com/2022/02/fixed-neither-sqlalchemydatabaseuri-nor.html)
+- Database created successfully
+- Deploying app on Heroku
+- Heroku successfully connected with github.
+- Error deplying app currently.
 
 
 
