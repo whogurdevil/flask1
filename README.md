@@ -35,7 +35,8 @@
 - Database created successfully
 - Deploying app on Heroku
 - Heroku successfully connected with github.
-- Error deplying app currently.
+- Error deplying app currently
+
 
 
 
