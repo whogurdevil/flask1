@@ -3,7 +3,7 @@
 - **Framework:** A framework is a structure that you can build software on. It serves as a foundation, so you're not starting entirely from scratch. Frameworks are typically associated with a specific programming language and are suited to different types of tasks.
 
 ### -INSTALLATION:metal:
-1. Install python
+1. Install python from official website
 2. Create a virtual environment in the project directory
 3. Install flask using pip
 4. Now I have installed flask successffuly on my machine  
