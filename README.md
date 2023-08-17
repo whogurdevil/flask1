@@ -9,9 +9,6 @@
 4. Now I have installed flask successffuly on my machine  
 > :star:***ALWAYS REMEMBER TO ACTIVATE VIRTUAL ENVIRONMENT ELSE YOU WILL SEE ERROR MODULE NOT FOUND***:star:
 
-## FIRST CODE:one:
--Using minimal demo code I completed my first 'Hello world!' app
-
 ## RENDERING HTML:heart_eyes: 
 -Render html template from the ***template*** directory
 
